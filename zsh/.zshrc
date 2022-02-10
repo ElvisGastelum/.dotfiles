@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/work/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -109,9 +109,12 @@ alias botox-frontend="cd ~/code/github.com/adl/loyalty-frontend"
 alias botox-backend="cd ~/code/github.com/adl/alle-backend-rewards"
 alias synapsemx-frontend="cd ~/code/github.com/sacarino/frontend"
 alias synapsemx-backend="cd ~/code/github.com/sacarino/backend"
+alias minecraft-screenshots="cd ~/Library/Application Support/minecraft/screenshots"
+alias rc="rustc"
 alias e="ember"
 alias gi="gitui"
 alias ll="la -la"
+alias set_nvim_to_git="git config --global core.editor 'nvim'"
 
 function h(){
   history | grep "$@"

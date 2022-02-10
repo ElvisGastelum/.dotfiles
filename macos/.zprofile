@@ -16,3 +16,5 @@ export PUPPETEER_EXECUTABLE_PATH=`which chromium`
 [[ -s "$HOME/.work_credentials" ]] && source "$HOME/.work_credentials"
 
 export PATH="$HOME/homebrew/bin:$PATH"
+export PATH="$HOME/brew/opt/openssl@3/bin:$PATH"
+
